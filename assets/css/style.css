@@ -198,23 +198,12 @@ header nav ul li a:hover {
     text-align: right;
 }
 
-
-#addresses a {
-    color: var(--minor-color)
-}
-
-#addresses {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-/* #addresses a {
-    width: max-content;
+.links ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    text-decoration: none;
-} */
+}
+
 
