@@ -90,11 +90,17 @@ header nav ul li a:hover {
 }
   /* Hero Style End */
 
-.about h2, .works h2, .contact-info h2 {
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h2 {
     margin-left: 15px;
     font-size: 35px;
 }
-.about p {
+#about-me p {
     padding: 20px;
     line-height: 1.5;
     color: var(--tertiary-color);
@@ -127,8 +133,9 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-right: 3px solid;
     padding-top: 20px;
-    display: flex;
-    justify-content: flex-start;
+    width: 30%;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 
 .primary-border {
@@ -191,20 +198,23 @@ header nav ul li a:hover {
     text-align: right;
 }
 
-.contact-info {
-    background: var(--primary-color)
-}
 
-.contact-info h2, #addresses a {
+#addresses a {
     color: var(--minor-color)
 }
 
-#addresses a {
+#addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* #addresses a {
     width: max-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
     text-decoration: none;
-}
+} */
 
