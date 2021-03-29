@@ -87,7 +87,20 @@ header nav ul li a:hover {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    z-index: 1;
 }
+
+.my-photo {
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(../images/profilepic.JPG);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    max-height: 300px;
+    max-width: 300px;
+}
+
   /* Hero Style End */
 
 .content {
