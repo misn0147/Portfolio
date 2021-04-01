@@ -122,8 +122,9 @@ header nav ul li a:hover {
     padding: 20px;
     line-height: 1.5;
     color: var(--tertiary-color);
-    width: 80%;
-    font-size: 20px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
     margin: 0 auto;
     text-align: left;
 }
@@ -243,11 +244,14 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 address a {
     text-decoration: none !important;
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
