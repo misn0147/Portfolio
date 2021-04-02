@@ -275,6 +275,7 @@ address a {
     header nav ul li a {
         font-size: 20px;
     }
+
     #about-me p {
         padding: 5px;
         width: 90%;
@@ -286,5 +287,30 @@ address a {
         padding: 5px;
         width: 85%;
         font-size: 15px;
+    }
+    
+    .section-title {
+        padding-right: 2px;
+    }
+    
+    .content h2 {
+        font-size: 25px;
+    }
+    
+    .my-photo {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .imgOne {
+        min-height: 200px !important;
+    }
+
+    #contact-me address {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
     }
 }
