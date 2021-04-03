@@ -66,12 +66,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: solid 3px;
 }
 
 header nav ul li a:hover {
     background: rgba(112, 120, 238, 0.36);
-    color: var(--secondary-color);
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     text-shadow: none;
 }
 
@@ -261,6 +262,7 @@ address a {
     font-size: 20px;
     color: var(--secondary-color);
     font-weight: 600;
+    border-bottom: var(--secondary-color) 3px solid;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
