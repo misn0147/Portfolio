@@ -115,6 +115,7 @@ header nav ul li a:hover {
     margin-left: 15px;
     font-size: 35px;
 }
+
 #about-me p {
     padding: 20px;
     line-height: 1.5;
@@ -142,14 +143,26 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
+.imgOne:hover {
+    background-image: url(../images/hover_run_buddy.jpg);
+}
+
 .imgTwo {
     background-image: url(../images/horiseon-site.JPG);
     background-size: cover;
 }
 
+.imgTwo:hover {
+    background-image: url(../images/hover_horiseon.jpg);
+}
+
 .imgThree {
     background-image: url(../images/robots.JPG);
     background-size: cover;
+}
+
+.imgThree:hover {
+    background-image: url(../images/hover_robots.jpg);
 }
 
 .imgFour, .imgFive {
@@ -163,8 +176,7 @@ header nav ul li a:hover {
     padding-right: 10px;
     width: 30%;
     text-align: right;
-    flex: 0 0;
-    flex-basis: 20%;
+    flex: 0 0 20%;
 }
 
 .primary-border {
