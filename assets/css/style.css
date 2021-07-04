@@ -140,33 +140,42 @@ header nav ul li a:hover {
     min-height: 400px !important;
     flex-basis: 100% !important;
     background-repeat: no-repeat;
-    background-image: url(../images/run-buddy-site.JPG);
+    background-image: url(../images/pour-decisions.PNG);
     background-size: cover;
 }
 
 .imgOne:hover {
-    background-image: url(../images/hover_run_buddy.jpg);
+    background-image: url(../images/hover_pour_decisions.PNG);
 }
 
 .imgTwo {
-    background-image: url(../images/horiseon-site.JPG);
+    background-image: url(../images/meal_match.JPG);
     background-size: cover;
 }
 
 .imgTwo:hover {
-    background-image: url(../images/hover_horiseon.jpg);
+    background-image: url(../images/hover_meal_match.JPG);
 }
 
 .imgThree {
-    background-image: url(../images/robots.JPG);
+    background-image: url(../images/my_tech_blog.JPG);
     background-size: cover;
 }
 
 .imgThree:hover {
-    background-image: url(../images/hover_robots.jpg);
+    background-image: url(../images/hover_my_tech_blog.JPG);
 }
 
-.imgFour, .imgFive {
+.imgFour {
+    background-image: url(../images/Noted.JPG);
+    background-size: cover;
+}
+
+.imgFour:hover {
+    background-image: url(../images/hover_noted.JPG);
+}
+
+.imgFive {
     background-image: url("https://via.placeholder.com/200");
 }
 
