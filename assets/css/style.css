@@ -136,48 +136,14 @@ header nav ul li a:hover {
     justify-content: space-between;
 }
 
-.imgOne {
-    min-height: 400px !important;
-    flex-basis: 100% !important;
-    background-repeat: no-repeat;
-    background-image: url(../images/pour-decisions.PNG);
-    background-size: cover;
+.card {
+    width: 90%
 }
 
-.imgOne:hover {
-    background-image: url(../images/hover_pour_decisions.PNG);
+.card-img-top:hover {
+    opacity: .5;
 }
 
-.imgTwo {
-    background-image: url(../images/meal_match.JPG);
-    background-size: cover;
-}
-
-.imgTwo:hover {
-    background-image: url(../images/hover_meal_match.JPG);
-}
-
-.imgThree {
-    background-image: url(../images/my_tech_blog.JPG);
-    background-size: cover;
-}
-
-.imgThree:hover {
-    background-image: url(../images/hover_my_tech_blog.JPG);
-}
-
-.imgFour {
-    background-image: url(../images/Noted.JPG);
-    background-size: cover;
-}
-
-.imgFour:hover {
-    background-image: url(../images/hover_noted.JPG);
-}
-
-.imgFive {
-    background-image: url("https://via.placeholder.com/200");
-}
 
 .section-title {
     color: var(--primary-color);
@@ -318,12 +284,8 @@ address a {
     }
     
     .my-photo {
-        max-height: 300px;
-        max-width: 300px;
-    }
-
-    .imgOne {
-        min-height: 200px !important;
+        height: 20px;
+        width: 30px;
     }
 
     #contact-me address {

@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melissa Natoli Professional Portfolio</title>
 </head>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 <link rel="stylesheet" href="./assets/css/style.css" />
+
 
 <body>
     <!--navigation-->
@@ -53,39 +55,55 @@
         <h2 class="section-title primary-border">My Work</h2>
         <div class="flex-row">
             <!--first project-->
-            <a href="https://pour-decisions.herokuapp.com/" target="_blank" class="work imgOne">       
-                <section>
-                    <h3 class="project-name">Pour Decisions</h3>
-                    <h4>JavaScript/MySQL/Sequelize/Handlebars</h4>
-                </section>
-            </a>
+            <div class="card mb-3">
+                <a href="https://pour-decisions.herokuapp.com/" target="_blank">
+                <img class= "card-img-top" src="./assets/images/pour-decisions.PNG"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Pour Decisions</h5>
+                    <p class="card-text">Bootcamp group project created using Node.js, Express.js, Handlebars.js, MySQL2, and Sequelize as a review website for wineries in the Texas Hill Country</p>
+                    <a href="https://github.com/misn0147/pour-decisions" class="btn btn-info btn-sm">GitHub Repo</a>
+                </div>
+            </div>
+            
             <!--second project-->
-            <a href="https://misn0147.github.io/meal_match/" target="_blank" class="work imgTwo">       
-                <section>
-                    <h3 class="project-name">Meal Match</h3>
-                    <h4>JavaScript/HTML/CSS</h4>
-                </section>
-            </a>
+            <div class="card mb-3">
+                <a href="https://misn0147.github.io/meal_match/" target="_blank">
+                <img class= "card-img-top" src="./assets/images/meal_match.JPG"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Meal Match♥</h5>
+                    <p class="card-text">Bootcamp group project created using JavaScript to randomly choose a food and drink pairing to help you have a fun and exciting date night.</p>
+                    <a href="https://github.com/misn0147/meal_match" class="btn btn-info btn-sm">GitHub Repo</a>
+                </div>
+            </div>
+
             <!--third project-->
-            <a href="https://misn0147-my-tech-blog.herokuapp.com/" target="_blank" class="work imgThree">       
-                <section>
-                    <h3 class="project-name">My.Tech.Blog</h3>
-                    <h4>JavaScript/Handlebars/MySQL/Sequelize</h4>
-                </section>
-            </a> 
-            <!--fourth project-->
-            <a href="https://misn0147-noted.herokuapp.com/" target="_blank" class="work imgFour">       
-                <section>
-                    <h3 class="project-name">Noted</h3>
-                    <h4>JavaScript</h4>
-                </section>
-            </a>
-            <!--fifth project-->
-            <a href="#" class="work imgFive">       
-                <section>
-                    <h3 class="project-name">Fifth Project</h3>
-                </section>
-            </a>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card h-100" style="width: 32rem;">
+                        <a href="https://misn0147-my-tech-blog.herokuapp.com/" target="_blank">
+                        <img class="card-img-top" src="./assets/images/my_tech_blog.JPG"> </a>
+                        <div class="card-body">
+                            <h5 class="card-title">My.Tech.Blog</h5>
+                            <p class="card-text">Blog website for users to blog about tech topics created using Express.js, Handlebars.jsn MySQL2, and Sequelize. Users can interact with the blog poster through comments on the blog.</p>
+                            <a href="https://github.com/misn0147/my-tech-blog" class="btn btn-info btn-sm">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fourth project-->
+                <div class="col-sm-6">
+                    <div class="card h-100" style="width: 32rem;">
+                        <a href="https://misn0147-noted.herokuapp.com/" target="_blank">
+                        <img class="card-img-top" src="assets/images/Noted.JPG" alt="Card image cap">
+                        <div class="card-body"></a>
+                            <h5 class="card-title">Noted</h5>
+                            <p class="card-text">Simple note taking application created using Express.</p>
+                            <a href="https://github.com/misn0147/noted" class="btn btn-info btn-sm">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
     </section>
 <!--end "my work" section-->
 
@@ -95,7 +113,7 @@
     <div id="contact-div">    
         <address class="links">
             <a href="tel:+15125895283">512-589-5283</a>
-            <a href="mailto:natoli.missy@gmail.com">natoli.missy@gmail.com</a>
+            <a href="mailto:missy_natoli@yahoo.com">missy_natoli@yahoo.com</a>
             <a href="https://github.com/misn0147" target="_blank">GitHub</a>  
         </address>
     </div>  
