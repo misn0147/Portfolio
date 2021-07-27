@@ -8,7 +8,7 @@ My professional portfolio begins with my head with my name, navigation bar with 
 
 About Me link from nav bar takes you past the hero with my photo downt to the About Me section.
 
-![image](https://user-images.githubusercontent.com/79875711/113367062-ab78f680-9320-11eb-8c11-8d510d1d5ea3.png)
+![image]![image](https://user-images.githubusercontent.com/79875711/127235379-2d377ca0-9d21-45e0-b230-7781331c7ee9.png)
 
 
 My work link from nav bar takes you past the About Me section to samples of projects with the title and brief description of the project, photo of the project which serves as a link to the deployed application, as well as a button the open up the GitHub Repo for each project. 
@@ -21,6 +21,6 @@ Contact me link from nav bar takes you pas the My Work section to working links 
 
 Resume link from nav bar opens a document attachment with my resume. 
 
-![image](https://user-images.githubusercontent.com/79875711/113367281-3659f100-9321-11eb-9e77-6839f6b21471.png)
+![image]![image](https://user-images.githubusercontent.com/79875711/127235298-fa28ac5f-5ede-4fc7-9fea-257b981f1b75.png)
 
 CSS is structured to adjust to different media queries
