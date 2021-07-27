@@ -11,13 +11,13 @@ About Me link from nav bar takes you past the hero with my photo downt to the Ab
 ![image](https://user-images.githubusercontent.com/79875711/113367062-ab78f680-9320-11eb-8c11-8d510d1d5ea3.png)
 
 
-My work link from nav bar takes you past the About Me section to samples of projects with links to deployed applications, photos of projects, and brief title/what languages were used for each project. 
+My work link from nav bar takes you past the About Me section to samples of projects with the title and brief description of the project, photo of the project which serves as a link to the deployed application, as well as a button the open up the GitHub Repo for each project. 
 
-![image](https://user-images.githubusercontent.com/79875711/113367151-dfecb280-9320-11eb-8cca-adb7ada49ab5.png)
+![image](https://user-images.githubusercontent.com/79875711/127234977-2cb1935f-17ee-4903-b334-9905dcb3b7b6.png)
 
 Contact me link from nav bar takes you pas the My Work section to working links to my phone number, email, and GitHub.
 
-![image](https://user-images.githubusercontent.com/79875711/113367211-0f9bba80-9321-11eb-93ed-f350bfa0c0fe.png)
+![image]![image](https://user-images.githubusercontent.com/79875711/127235197-578e468b-8cc4-4035-a349-9d487b66da92.png)
 
 Resume link from nav bar opens a document attachment with my resume. 
 
